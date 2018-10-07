@@ -1,0 +1,11 @@
+body {
+	width:500px; height:500px; background-color:white;
+}
+
+ul.fl li {
+	float:left; list-style-type:none; margin-right:10px; cursor:pointer;
+}
+
+p.cl {
+	clear:left;
+}

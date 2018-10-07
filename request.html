@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<meta name="Keywords" content="柏,朝日,新聞,ＡＳＡ,リサイクル" lang="ja">
+<meta name="Description" content="柏の朝日新聞（ＡＳＡ）のリサイクル">
+<meta name="Robots" content="index,follow">
+<TITLE>柏のリサイクル・ゆずり葉</TITLE>
+<link rel="stylesheet" type="text/css" href="./css/top.css">
+</HEAD>
+<body class="page">
+<div id="back1">
+<div class="header">
+  
+  <p><a href="kaisha1.html">会社概要</a><a href="policy1.html">利用規約</a>
+     <a href="kobutu.html">古物営業法の表記</a><a href="tokusho1.html">特商法の表記</a></p>
+  <p class="cl"><img src="./pic/yuzuri1.jpg" alt="Ｌ－ｍｉｓｏ" width="120" height="50" class="pos">
+                朝日新聞のリサイクル・サービス
+                <img src="./pic/tel3.jpg" alt="tel" width="120" height="50" class="pos2">
+  </p>
+</div>
+
+<ul class="navi">
+  <li class="bk"><a href="index.html">ホーム</a></li>
+  <li><a href="system.html">システム</a></li>
+  <li><a href="yuzu1.html">ゆずりたい</a></li>
+  <li><a href="yuzu2.html">ゆずられたい</a></li>
+  <li><a href="q_a.html">Ｑ＆Ａ</a></li>
+</ul>
+
+<p class="moji">■お問合せコーナー</p>
+<p>ご質問が御座いましたら下記、問合せ画面よりどうぞ</p>
+<p>以下の内容で間違いないでしょうか？</p>
+<div id="body">
+  <div class="menu">
+  	 <div class="box">
+       <h2></h2>
+         <p><a href="http://www.asapre.jp">
+              <img src="./pic/asapre.jpg" alt="あさぷれ" width="162" height="50" class="pos"></a>
+            <a href="http//www.reysol.jp">
+              <img src="../imgs/Reysol_3.jpg" alt="あさぷれ" width="162" height="50" class="pos"></a>
+         </p>
+     </div>
+    
+  </div>
+  <div class="main">
+    <div class="content1">
+	  <form action="<?php echo $_SERVER["PHP_SELF"]" method="post">
+	    <table class="pos1">
+	      <tr><th>お名前</th>
+	          <td><input type="text" name="name" size="20"></td></tr>
+	      <tr><th>住所</th>
+	          <td><input type="text" name="address" size="50"></td></tr>
+	      <tr><th>メールアドレス</th>
+	          <td><input type="text" name="email" size="30"></td></tr>
+	      <tr><th class="pos">コメント</th>
+	          <td><textarea name="comment" cols="50" rows="12"></textarea></td></tr>
+	    </table>
+	    <p class="sub"><button type="submit"><img src="./pic/mail.gif" alt="メール"></button></p>
+	    
+	    <table>
+        <tr><th>名前</th><td><?php print $_POST{"name"}; ?></td></tr>
+        <tr><th>住所</th><td><?php print $_POST{"address"}; ?></td></tr>
+        <tr><th>メール</th><td><?php print $_POST{"email"}; ?></td></tr>
+        <tr><th>コメント</th><td><?php print $_POST{"comment"}; ?></td></tr>
+      </table>
+      <p>内容に間違いが無ければ”送信ボタン”をクリックして下さい。</p>
+    </div>
+	</div>
+	
+	<p class="no2">伸光堂千葉販売株式会社　マーケティング部<br>
+	               　　　　　　　　　　　　　　　　　Ｌ－ｍｉｓｏチーム</p>
+	<p class="no1">Tel : (04)7164-3732</p>
+  </div>
+  
+</div>
+</div>
+<div class="footer">
+  
+  <address>&#169; 2010 - 2010, 伸光堂千葉販売(株)　 All Rights Reserved.</address>
+</div>
+
+</BODY>
+</HTML>

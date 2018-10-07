@@ -1,0 +1,136 @@
+body.page {
+	background-color:pink; margin-left:100px; color:hotpink;
+}
+
+#body {
+	margin:5px; width:760px;
+}
+
+#back {
+	width:760px; height:1250px; background-color:lightyellow; padding:5px;
+}
+
+#back1 {
+	width:760px; height:500px; background-color:lightyellow; padding:5px;
+}
+
+div.header {
+	font-size:20px; color:pink;  padding:0px; width:760px;
+    font-style:italic;
+}
+
+div.header a {
+	display:block; float:left; margin:2px; padding: 2px 10px; color:lightpink;
+	position:relative; left:50%; font-size:15px;
+}
+
+p.cl {
+	clear:left; border-top:solid pink; border-bottom:solid pink; border-width:2px 0px 6px 0px;
+}
+
+div.header a:hover {
+	text-decoration:underline;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul.navi {
+	padding:0px 0px; margin:5px; width:750px; 
+	height:29px;
+}
+
+ul.navi li {
+	float:left; list-style-type:none; margin:1px; padding:1px; font-size:18px;
+	background-color:lightpink; width:120px; text-align:center;
+}
+
+ul.navi li a {
+	display:block; width:100%; color:white; font-weight:bold; height:24px; border-bottom:solid 5px hotpink;
+}
+
+}
+div.main {
+	float:left; width:550px;
+}
+
+
+div.content {
+	 width:550px; margin-top:3px; padding:0px font-size:20px;
+}
+
+div.content dt {
+	background-color:aliceblue; width:550px;  border-style:solid; border-width:3px 0px 1px;
+	border-color:lavender; color:hotpink; font-size:20px; font-weight:bold;
+}
+
+div.content dd {
+	width:500px; border-color:lavender; color:pink; font-weight:bold; font-size:20px; 
+	border-width:0px 1px 1px 1px; margin-top:10px; margin-bottom:20px; padding:0px;
+}
+
+div.menu {
+	float:right; width:180px;
+}
+
+div.box {
+	margin:6px; padding:5px; background-color:lightpink; text-align:center;
+}
+
+div.menu a {
+	display:block; text-decoration:none; color:lightpink;
+	background-color:aliceblue; margin:2px 10px; padding:4px; text-align:left;
+}
+
+div.menu img {
+	border:0px;
+}
+
+ul.list a:hover {
+	background-color:lightcyan; color:pink;
+}
+
+ul.navi a:hover {
+	background-color:lightcyan; color:pink; border-bottom:solid 5px pink;
+}
+
+div.menu a:hover {
+	background-color:lightcyan; color:pink;
+}
+div.footer {
+    width:760px; margin:0px; padding:0px; border-top:solid 1px #CCCCCC; text-align:center;
+}
+
+div.footer address {
+	text-align:center; margin:5px; color:lightyellow;
+}
+
+img.pos {
+	vertical-align:baseline; margin:1px;
+}
+
+img.pos2 {
+	position:relative; left:30%;
+}
+
+img.pic {
+	float:left; border:0px; margin-right:20px;
+}
+
+p.moji {
+	font-size:25px; color:hotpink; text-justify:inter-ideograpf;
+}
+
+img.mv {
+	margin:5px 0px 4px 0px;
+}
+
+p.no1 {
+	font-size:20px; font-family:Arial; font-weight:200; position:relative; left:37%;
+}
+
+p.no2 {
+	font-size:25px; font-family:fantasy; font-weight:300; clear:both;
+}
+
